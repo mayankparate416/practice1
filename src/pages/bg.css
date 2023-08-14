@@ -1,0 +1,76 @@
+
+
+.bg_image_service{
+    background-image: url('/public/images/career1.jpg');
+    filter: blur(2px);
+    -webkit-filter: blur(2px); 
+    width: 25rem;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_image_career{
+    background-image: url('/public/images/8-IT-Solutions.jpg');
+    filter: blur(2px);
+    -webkit-filter: blur(2px); 
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+.bg_text{
+    background-color: rgb(78, 2, 36);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%; 
+    padding: 20px;
+    text-align: center;
+}
+.bg_text_1{
+    /* background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); */
+    color: black;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.bg_text_2{
+    
+    color:darkslategray;
+    /* font-weight: bold; */
+    line-height: normal;
+    position:absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  
+  

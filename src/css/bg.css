@@ -1,0 +1,408 @@
+.zero{
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem ;
+
+}
+
+.bg_image_service{
+    background-image: url('/src/images/service.jpg');
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+.bg_image_career{
+    background-image: url('/src/images/career_image.jpg');
+    height: 80vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+.bg_text{
+    color:darkslategray;
+   
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position:absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%; 
+    padding: 20px;
+    text-align: center;
+}
+.bg_text_1{
+    /* background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); */
+    color:darkslategray;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.bg_text_2{
+    
+    color:rgb(22, 22, 50);
+    /* font-weight: bold; */
+    line-height: normal;
+    position:absolute;
+    top: 88%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    width: 80%;
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.service_text_1{
+    
+    color:rgb(237, 239, 244);
+    /* font-weight: bold; */
+    line-height: normal;
+    position:absolute;
+    top: 12%;
+    left: 7.2%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.service_text_2{
+    
+    color:rgb(29, 36, 53);
+    /* font-weight: bold; */
+    line-height: normal;
+    position:absolute;
+    top: 38%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+.hStyle{ color:dimgray}
+  
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
+  .app {
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #0a090b;
+    color: white;
+    position:static;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: "75px";
+    margin-top: auto;
+    bottom: 0;
+  }
+
+  .app-ui {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    grid-gap: 16px;
+  }
+
+  .width1{
+    width:100%;
+  }
+ 
+  .font-calc{
+    font-size: calc(1rem + 1vh);
+  }
+
+  .brandingWrapper {
+
+    display:block !important;
+
+}
+/* 
+.image{
+  height: 100vh;
+}
+
+@media (max-width: 2000px){
+  .image{
+    width:100%;
+    height: auto;
+  }
+} */
+
+/* h4{
+  font-size: 3rem;
+}
+p1{
+  font-size: 1.5rem;
+}
+*/
+/* @media (max-width: 768px){ 
+ l{
+  width:100%;
+ }
+}  */
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.card1 {
+  width: 400px; 
+  max-width: 100%;
+}
+
+.card2{
+  width:450px;
+  max-width: 100%;
+}
+
+.card3{
+  width:420px;
+  max-width: 100%;
+}
+
+.card4{
+  width:100%;
+  max-width: 100%;
+  
+}
+
+.card5{
+  width:330px;
+  max-width: 100%;
+}
+.card1:hover{
+  background-color:rgb(31, 79, 74);
+  color:white;
+  cursor:pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+  }
+
+.card2:hover{
+  background-color:rgb(73, 105, 101);
+  color:white;
+  cursor:pointer;
+  transform: scale(1.06);
+  transition: all 1s ease;
+}
+
+.card3:hover{
+  /* background-color:rgb(31, 79, 74); */
+  color:rgb(251, 249, 249);
+  cursor:pointer;
+  transform: scale(1.06);
+  transition: all 1s ease;
+}
+
+.card4:hover{
+  /* background-color:rgb(167, 245, 227); */
+  color:rgb(15, 13, 13);
+  cursor:pointer;
+  transform: scale(1.06);
+  transition: all 1s ease;
+}
+
+/* Default font size */
+body {
+  font-size: 16px;
+}
+
+.heading{
+  font-size: 2vw;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.heading1{
+  font-size: 1.2vw;
+  color: rgb(4, 4, 71);
+}
+.webfont{
+  font-size: 1.2vw;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.webfont1{
+  font-size: 1.1vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.footerheading{
+  font-size: 1.5vw;
+}
+.footercontent{
+  font-size: 1vw;
+}
+
+.icons{
+  width:'100%';
+
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .webfont{
+    font-size: 2.7vw;
+  }
+
+  .webfont1{
+    font-size: 2.7vw;
+  }
+  .heading{
+    font-size: 3vw;
+  }
+  .heading1{
+    font-size: 2.7vw;
+  color: rgb(4, 4, 71);
+
+  }
+  .footerheading{
+    font-size: 2.8vw;
+  }
+  .footercontent{
+    font-size: 2.7vw;
+  }
+  .icons{
+    width:'30vh';
+    height: auto;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  
+}
+
+.c1{
+  width: 30%;
+  max-width: 100%;
+}
+
+.c1:hover{
+  cursor:pointer;
+  transform: scale(1.06);
+}
+
+.circle-image {
+  width: 30%; 
+  height: 30%;
+  border-radius: 20%; 
+  overflow: hidden;
+}
+
+.circle-image img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  position: relative;
+}
+
+.navbar li:hover .dropdown-menu {
+  display:inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fdfbfb;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  display: block;
+  color: rgb(6, 88, 189);
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #fdfbfb;
+}
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  padding: 20px;
+  color: #fff;
+}
+
+.image-container {
+  position: relative;
+  max-width: 100%;
+}

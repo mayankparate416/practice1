@@ -1,0 +1,13 @@
+@keyframes moveImage {
+    from {
+      transform:translateZ(0);
+    }
+    to {
+      transform:translate3d(50px,20px,0); 
+    }
+  }
+  
+  .image {
+    animation: moveImage 2s infinite; /* Adjusting duration */
+  }
+  
